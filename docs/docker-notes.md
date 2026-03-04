@@ -262,7 +262,7 @@ PostgreSQL Database directory appears to contain a database; Skipping initializa
 2026-03-04 19:29:16.855 UTC [1] LOG:  database system is ready to accept connections
 (.venv) ]
 
-[the terminal did not run the command 
+[the terminal did not run the command:
 (docker run -d \
   --name pg-prework \
   -e POSTGRES_PASSWORD=prework \
@@ -271,3 +271,7 @@ PostgreSQL Database directory appears to contain a database; Skipping initializa
   
   and sfter that i tried to run the command in git bash and it worked]
 
+
+## Restarting the Container
+To apply changes or restart the database, I used the following command:
+`docker restart pg-prework`
